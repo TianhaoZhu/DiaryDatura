@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/all_bg_gary"
+    tools:context="zth.com.gezhi.zth.com.gezhi.module.setting.ChangePwdActivity"
+    android:orientation="vertical">
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding_all"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/ic_user_img"/>
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/padding_all"
+        style="@style/txt_black_normal"
+        android:textColor="@color/khakiDeep"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_all"
+        style="@style/txt_black_normal"
+        android:text="@string/inputOriginalPwd"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_all"
+        android:layout_marginRight="@dimen/padding_all"
+        android:padding="@dimen/padding_all"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/style_edit_corner_bg">
+
+        <EditText
+            android:id="@+id/et_origianal_pwd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/txt_black_normal"
+            android:maxLength="16"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:digits="@string/pwdDigits"
+            android:hint="@string/pleaseInputOriginalPwd"
+            android:textColorHint="@color/txt_shadow"
+            android:background="@drawable/style_edit_white_bg"/>
+
+        <ImageView
+            android:id="@+id/iv_original"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:clickable="true"
+            android:src="@mipmap/ic_hide_pwd"/>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_all"
+        style="@style/txt_black_normal"
+        android:text="@string/inputNewPwd"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_all"
+        android:layout_marginRight="@dimen/padding_all"
+        android:padding="@dimen/padding_all"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/style_edit_corner_bg">
+
+        <EditText
+            android:id="@+id/et_new_pwd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            style="@style/txt_black_normal"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:digits="@string/pwdDigits"
+            android:hint="@string/pleaseInputNewPwd"
+            android:textColorHint="@color/txt_shadow"
+            android:background="@drawable/style_edit_white_bg"/>
+
+        <ImageView
+            android:id="@+id/iv_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:clickable="true"
+            android:src="@mipmap/ic_hide_pwd"/>
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_all"
+        style="@style/txt_black_normal"
+        android:text="@string/inputConfirmPwd"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_all"
+        android:layout_marginRight="@dimen/padding_all"
+        android:padding="@dimen/padding_all"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/style_edit_corner_bg">
+
+        <EditText
+            android:id="@+id/et_confirm_pwd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/txt_black_normal"
+            android:digits="@string/pwdDigits"
+            android:hint="@string/pleaseInputConfirmPwd"
+            android:textColorHint="@color/txt_shadow"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:background="@drawable/style_edit_white_bg"/>
+
+        <ImageView
+            android:id="@+id/iv_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:clickable="true"
+            android:src="@mipmap/ic_hide_pwd"/>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        style="@style/txt_black_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_six"
+        android:layout_marginTop="@dimen/padding_six"
+        android:gravity="center"
+        android:text="@string/pwdLabel"
+        android:textSize="@dimen/txt_cell" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_marginLeft="@dimen/padding_double_all"
+        android:layout_marginRight="@dimen/padding_double_all"
+        android:layout_marginBottom="@dimen/padding_all"
+        android:text="@string/savePwd"
+        android:background="@drawable/style_btn_khaki_normal"
+        android:enabled="true"/>
+
+
+
+</LinearLayout>

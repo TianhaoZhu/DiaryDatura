@@ -1,0 +1,299 @@
+<resources>
+    <string name="app_name">门店管理</string>
+    <string name="fail_check_module">You can check the RFID Moudle.\r\nMake sure that the Module is fitted correctly.</string>
+
+    <string name="clickMe">click me</string>
+    <string name="db_name">my_db.db</string>
+
+    <string name="initDevice">设备初始化……</string>
+    <string name="getDeviceWrong">设备初始化失败</string>
+
+    <string name="rememberPwd">记住密码</string>
+    <string name="pleaseInputName">请输入用户名</string>
+    <string name="pleaseInputPass">请输入密码</string>
+    <string name="username_error">用户名错误！</string>
+    <string name="password_error">密码错误</string>
+    <string name="load">登录</string>
+    <string name="setPort">更改IP?</string>
+    <string name="netWorkIpSet">网络IP设置</string>
+    <!--设置-->
+    <string name="setting">设置</string>
+    <!--网络异常-->
+
+    <string name="netLow">网络异常，请点击重试~</string>
+    <string name="isLoading">玩命加载中…</string>
+    <string name="hint_bar_code">请扫描或输入条码查询</string>
+
+
+    <string name="reset">重置</string>
+
+    <string name="zero">30</string>
+    <string name="powerUnit">dBm</string>
+    <string name="loading">加载中……</string>
+    <string name="upToFresh">下拉可以刷新</string>
+    <string name="xlistview_header_hint_normal">下拉可以刷新</string>
+    <string name="xlistview_header_hint_ready">松开立即刷新</string>
+    <string name="xlistview_header_hint_loading" formatted="false">正在刷新数据……</string>
+    <!--下拉刷新-->
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">松开可以刷新</string>
+    <string name="lastUpdateTime">最近更新：%s</string>
+    <string name="load_full">已加载全部</string>
+    <string name="no_data">暂无数据</string>
+    <string name="more">加载中</string>
+    <string name="loadSuccess">加载成功</string>
+
+    <string name="inputString">收货功率</string>
+    <string name="inventoryString">盘点功率</string>
+    <string name="bindString">绑定功率</string>
+    <string name="allocationString">调拨功率</string>
+    <string name="backToWarehouseString">退仓功率</string>
+    <string name="searchString">查询功率</string>
+    <string name="bindTestString">盘点测试功率</string>
+
+    <string name="cancel">取消</string>
+    <string name="wheel_title">请选择发往仓库</string>
+    <string name="sure">确认</string>
+    <string name="hint"> </string>
+    <string name="sureToExit">确定退出登录？</string>
+    <string name="IPLabel">请输入完整的IP地址</string>
+    <string name="IPCanNull">IP地址不能为空</string>
+    <string name="star">*</string>
+    <string name="ipRules">请按IP:端口号格式输入</string>
+    <string name="ipRules2">例：127.0.0.1:8080</string>
+
+    <!--登陆-->
+    <string name="userNameEmpty">用户名为空</string>
+    <string name="pwdEmpty">密码为空</string>
+    <string name="userNameWrong">用户名错误</string>
+    <string name="pwdWrong">密码错误</string>
+
+
+    <!--设置-->
+    <string name="volume">音量</string>
+    <string name="changePwd">修改密码</string>
+    <string name="helpIntroduce">帮助说明</string>
+    <string name="exitLoad">退出登录</string>
+    <string name="inputOriginalPwd">输入原密码</string>
+    <string name="pleaseInputOriginalPwd">请输入该账号原始密码</string>
+    <string name="inputNewPwd">设置密码</string>
+    <string name="pleaseInputNewPwd">请设置账号的新密码</string>
+    <string name="inputConfirmPwd">确认新密码</string>
+    <string name="pleaseInputConfirmPwd">请再次输入新密码</string>
+    <string name="pwdLabel">输入长度为6-16位的字母或数字,注意区分大小写</string>
+    <string name="savePwd">保存</string>
+    <string name="pwdDigits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_</string>
+    <string name="originalCanNotEmpty">原始密码不能为空</string>
+    <string name="newCanNotEmpty">新密码不能为空</string>
+    <string name="ConfirmCanNotEmpty">确认密码不能为空</string>
+    <string name="pwdLenghtTooShort">密码不能少于6位</string>
+    <string name="originalWrong">原始密码错误</string>
+    <string name="pwdIsDifferent">新密码不一致</string>
+    <string name="changePwdSuccess">密码修改成功</string>
+    <string name="helpMauual">远望谷用户协议</string>
+
+    <!--菜单页-->
+    <string name="inputLabel">收货</string>
+    <string name="allocationLabel">调拨</string>
+    <string name="backToWarehouseLabel">退仓</string>
+    <string name="searchLabel">查询</string>
+    <string name="bindLabel">检测</string>
+    <string name="inventoryLabel">盘点</string>
+    <string name="settingLabel">设置</string>
+
+    <!--查询-->
+    <string name="jump_scheme">RainBowDemo</string>
+    <string name="pleaseScanToSearch">请扫描商品查询</string>
+    <string name="pleaseScanBarToSearch">请扫描条码查询</string>
+    <string name="barcodeLabel">商品条码</string>
+    <string name="kindsLabel">商品类别</string>
+    <string name="nameLabel">品名</string>
+    <string name="number">款号</string>
+    <string name="color">颜色</string>
+    <string name="type">号型</string>
+    <string name="RMB">RMB</string>
+    <string name="spcLabel">商品规格</string>
+    <string name="stockQtyLabel">库存</string>
+    <string name="textLine">————————————————————————————————————————————————————————————————————————————————</string>
+    <string name="goodsSearch">商品查找</string>
+    <string name="notFindTheGoods">没有找到对应商品</string>
+    <string name="changeModel">切换</string>
+    <string name="barcodeSearch">条码查询</string>
+    <string name="rfidSearch">RFID查询</string>
+    <string name="search">查询</string>
+    <string name="pleaseInputContentFirst">查询内容不能为空</string>
+    <string name="foundTag">已找到</string>
+    <string name="defaultLabel">——</string>
+    <string name="startSearch">开始查找</string>
+    <string name="stopSearch">停止查找</string>
+    <string name="notFoundGoodTag">未找到的商品标签</string>
+    <string name="barcodeSearchLabel">条码</string>
+    <string name="miles">m</string>
+    <string name="goodsSearchTitle">商品查找</string>
+    <string name="searchHint">请扫描扫码查询</string>
+    <string name="findLabel">已找到</string>
+    <string name="unFindLabel">未找到</string>
+    <string name="goodRfidInfo">商品RFID</string>
+    <string name="scanQty">扫到次数</string>
+    <string name="className">品名</string>
+    <string name="classBarcode">款号</string>
+    <string name="classColor">颜色</string>
+    <string name="classModel">号型</string>
+    <string name="classPrice">RMB</string>
+    <string name="classStock">库存</string>
+    <string name="classClose">关闭</string>
+
+    <!--调拨-->
+    <string name="submit">提交</string>
+    <string name="RFID">RFID</string>
+    <string name="barcode">条码</string>
+    <string name="allocationToOther">调拨邻店</string>
+    <string name="chooseStore">请输入门店代码或门店名称查询</string>
+    <string name="none">-  -</string>
+    <string name="boxnum">第1箱</string>
+    <string name="di">第</string>
+    <string name="xiang">箱</string>
+    <string name="startScan">开始扫描</string>
+    <string name="stopScan">停止扫描</string>
+    <string name="continueScan">继续扫描</string>
+    <string name="scanAgain">重新扫描</string>
+    <string name="scanResult">扫描结果</string>
+    <string name="googsInfo">商品信息</string>
+    <string name="goodsNum">数量</string>
+    <string name="goodsTypeNum">商品款数</string>
+    <string name="totalNum">总件数</string>
+    <string name="dataError">数据异常</string>
+    <string name="sendSuccess">已完成发货</string>
+    <string name="boxNum">箱号</string>
+    <string name="revStore">收货方</string>
+    <string name="sedstore">发货方</string>
+    <string name="sedNum">实收货</string>
+    <string name="totalPrice">商品总额</string>
+    <string name="typeNum">商品款数</string>
+    <string name="wheel_title1">请选择发往门店</string>
+    <string name="rescanerror">参数错误或不完整</string>
+    <string name="submitFailure">提交失败</string>
+    <string name="submitSuccess">提交成功</string>
+    <string name="no_warehouseID">暂无门店</string>
+    <string name="dataErrorString">数据异常</string>
+
+    <!--退仓功能-->
+    <string name="scan_send_goods">扫描发货商品</string>
+    <string name="select_warehouse">请选择仓库</string>
+    <string name="no_warehouse">暂无仓库</string>
+    <string name="title_return_warehouse">退回仓库</string>
+    <string name="send_warehouse">发往仓库</string>
+    <string name="scan_return_warehouse_goods">扫描退仓货品</string>
+    <string name="num">数量</string>
+    <string name="shop_style_num">商品款数</string>
+    <string name="all_num">总件数</string>
+    <string name="finish_return_warehouse">已完成发货</string>
+    <string name="box_num">第 <font color="#bfa052">%s</font>  箱</string>
+    <string name="box_number">箱号</string>
+    <string name="send_goods_num">发货单号</string>
+    <string name="receiving_party">收货方</string>
+    <string name="sender_party">发货方</string>
+    <string name="goods_num">总件数</string>
+    <string name="goods_all_price">商品总额</string>
+    <string name="goods_all_type">商品款数</string>
+    <string name="null_scan_bar_code">请输入或者扫描条码</string>
+
+    <!--盘点功能-->
+    <string name="title_select_inventory_plan">选择盘点计划单</string>
+    <string name="no_inventory_plan">暂无盘点任务</string>
+    <string name="inventory_plan_task_left_title">RFID模式</string>
+    <string name="inventory_plan_task_right_title">条码模式</string>
+    <string name="new_inventory_task">新建盘点任务</string>
+    <string name="title_rfid_task">RFID盘点</string>
+    <string name="title_barcode_task">条码盘点</string>
+    <string name="title_commit">提交</string>
+    <string name="task_num">任务号</string>
+    <string name="order_num">单号</string>
+    <string name="input_task_num">请输任务号</string>
+    <string name="no_scan_barcode">暂无扫描的条码</string>
+    <string name="start_scan">开始扫描</string>
+    <string name="continue_scan">继续扫描</string>
+    <string name="re_scan">重新扫描</string>
+    <string name="scan_result">扫描结果</string>
+    <string name="stop_scan">停止扫描</string>
+    <string name="please_stop_scan">请先停止扫描</string>
+    <string name="title_rfid_result_all">全部商品</string>
+    <string name="title_rfid_result_dif">差异商品</string>
+    <string name="title_rfid_result_shop_info">商品信息</string>
+    <string name="title_rfid_result_bill">账单</string>
+    <string name="title_rfid_result_true">实际</string>
+    <string name="title_rfid_result_dif_num">差异</string>
+    <string name="rfid_result_order">账面</string>
+    <string name="rfid_result_true">实盘</string>
+    <string name="title_commit_result">操作结果</string>
+    <string name="completed_inventory">已完成盘点</string>
+    <string name="completed_inventory_real">实盘数</string>
+    <string name="completed_inventory_order">账面数</string>
+    <string name="completed_inventory_loss">盘亏数</string>
+    <string name="completed_inventory_profit">盘盈数</string>
+    <string name="completed_inventory_task_num">任务号</string>
+    <string name="completed_inventory_num">盘点单号</string>
+    <string name="completed_inventory_area">盘点区域</string>
+    <string name="task_num_format">任务号：%s</string>
+    <string name="placeholder">- -</string>
+    <string name="had_scan_barcode">该条码已经扫描过</string>
+    <string name="commit_success">提交成功</string>
+    <string name="shop_all_money">商品总额</string>
+    <string name="sku_format">%1$s—%2$s—%3$s</string>
+    <string name="data_load_finish">已经加载完所有数据</string>
+    <!--收货-->
+    <string name="input_style_box">按箱收货</string>
+    <string name="input_style_order">按单收货</string>
+    <string name="receive_name">收货箱（包）</string>
+    <string name="scan_box_barcode">扫描箱（包）条码</string>
+    <string name="bt_scan_shop">扫描到货商品</string>
+    <string name="no_order_list">暂无收货单据</string>
+    <string name="bar_code">条形码</string>
+    <string name="rfid">RFID</string>
+    <string name="piece">件</string>
+    <string name="actual_goods">实收货</string>
+    <string name="finish_input_goods">已完成收货</string>
+    <string name="borcode_not_exist">此条码不在箱内</string>
+    <!--绑定检测-->
+    <string name="title_bind">绑定检测</string>
+    <string name="tag_all_count">标签总数</string>
+    <string name="num_zero">0</string>
+    <string name="stop_find">停止查找</string>
+    <string name="start_find">开始查找</string>
+    <string name="is_binding">已绑定</string>
+    <string name="not_binding">未绑定</string>
+    <string name="shop_find">商品查找</string>
+    <string name="eas_tag">EAS标签</string>
+    <string name="epc_number">epc编号 </string>
+    <string name="commit_bind">提交绑定</string>
+    <string name="tag_bind">标签绑定</string>
+    <string name="bind_sale_off">销售解绑</string>
+    <string name="switchover">切换</string>
+    <string name="bind_success">绑定成功</string>
+    <string name="bind_fail">绑定失败</string>
+    <string name="bind_num">款号:</string>
+    <string name="bind_name">名称:</string>
+    <string name="bind_color">颜色尺码:</string>
+    <!--销售解绑-->
+    <string name="sale_off_scan">扫描</string>
+    <string name="sale_off_upload">提交</string>
+    <string name="data_clear">清除</string>
+    <string name="scan_data_empty">暂未扫描到数据</string>
+    <string name="upload_data_success">标签解绑成功</string>
+    <string name="chooseCategory">请选择盘点品类</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+</resources>

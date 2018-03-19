@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="zth.com.gezhi.zth.com.gezhi.module.workspace.WorkSpaceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/menu_bg_pic"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btn_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="@dimen/padding_all"
+            android:src="@mipmap/menu_ic_setting" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_double_all"
+            android:layout_marginStart="@dimen/padding_double_all"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/shop_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_big" />
+
+            <TextView
+                android:id="@+id/shop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_eight"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_big" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_all"
+            android:layout_marginRight="@dimen/padding_all"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-24dp"
+        android:background="@drawable/bg_top_radio"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_eight"
+        android:paddingTop="@dimen/padding_eight">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_all"
+            android:paddingLeft="@dimen/padding_eight"
+            android:paddingRight="@dimen/padding_eight"
+            android:paddingTop="@dimen/padding_all">
+
+            <Button
+                android:id="@+id/btn_input"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.1"
+                android:background="@drawable/select_home_bg"
+                android:drawableTop="@mipmap/menu_ic_delivery"
+                android:padding="@dimen/padding_eight"
+                android:text="@string/inputLabel"
+                android:textColor="@color/txt_normal"
+                android:textSize="@dimen/txt_normal"
+                android:visibility="gone" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_bind_tag"
+                style="@style/txt_black_normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="@dimen/padding_six"
+                android:layout_marginTop="@dimen/padding_six"
+                android:layout_weight="1"
+                android:background="@drawable/select_home_bg"
+                android:gravity="center"
+                android:padding="@dimen/padding_eight"
+                android:text="@string/tag_bind"
+                android:visibility="visible" />
+
+
+
+            <TextView
+                android:id="@+id/tv_bind_tag_sale_off"
+                style="@style/txt_black_normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="@dimen/padding_six"
+                android:layout_marginTop="@dimen/padding_six"
+                android:layout_weight="1"
+                android:background="@drawable/select_home_bg"
+                android:gravity="center"
+                android:padding="@dimen/padding_eight"
+                android:text="单个解绑"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tv_bind_tag_sale_off_multi"
+                style="@style/txt_black_normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="@dimen/padding_six"
+                android:layout_marginTop="@dimen/padding_six"
+                android:layout_weight="1"
+                android:background="@drawable/select_home_bg"
+                android:gravity="center"
+                android:padding="@dimen/padding_eight"
+                android:text="批量解绑"
+                android:visibility="visible" />
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_bind"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/select_home_bg"
+                android:drawableLeft="@mipmap/menu_ic_tags"
+                android:drawablePadding="@dimen/padding_four"
+                android:padding="@dimen/padding_eight"
+                android:text="@string/bindLabel"
+                android:textColor="@color/txt_normal"
+                android:textSize="@dimen/txt_normal"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_all"
+            android:paddingLeft="@dimen/padding_eight"
+            android:paddingRight="@dimen/padding_eight"
+            android:paddingTop="@dimen/padding_all">
+
+            <Button
+                android:id="@+id/btn_allocation"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/select_home_bg"
+                android:drawableLeft="@mipmap/menu_ic_transfer"
+                android:drawablePadding="@dimen/padding_four"
+                android:padding="@dimen/padding_eight"
+                android:text="@string/allocationLabel"
+                android:textColor="@color/txt_normal"
+                android:textSize="@dimen/txt_normal" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/select_home_bg"
+                android:drawableLeft="@mipmap/menu_ic_retreat"
+                android:drawablePadding="@dimen/padding_four"
+                android:padding="@dimen/padding_eight"
+                android:text="@string/backToWarehouseLabel"
+                android:textColor="@color/txt_normal"
+                android:textSize="@dimen/txt_normal"
+                android:visibility="gone" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/btn_inventory"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.1"
+                android:background="@drawable/select_home_bg"
+                android:drawablePadding="@dimen/padding_four"
+                android:drawableTop="@mipmap/menu_ic_inventory"
+                android:padding="@dimen/padding_eight"
+                android:text="@string/inventoryLabel"
+                android:textColor="@color/txt_normal"
+                android:textSize="@dimen/txt_normal" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.1" />
+
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/select_home_bg"
+                android:drawableLeft="@mipmap/menu_ic_search"
+                android:drawablePadding="@dimen/padding_four"
+                android:padding="@dimen/padding_eight"
+                android:text="@string/searchLabel"
+                android:textColor="@color/txt_normal"
+                android:textSize="@dimen/txt_normal" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

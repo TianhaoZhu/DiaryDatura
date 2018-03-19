@@ -1,0 +1,73 @@
+<resources>
+    <!--宽度 距离-->
+    <dimen name="title_height">46dp</dimen>
+    <dimen name="title_height_total">47dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--一般默认的左右边距-->
+    <dimen name="padding_all">12dp</dimen>
+    <dimen name="padding_all_less_two">10dp</dimen>
+    <dimen name="padding_double_all">24dp</dimen>
+    <dimen name="padding_big">16dp</dimen>
+    <dimen name="padding_eight">8dp</dimen>
+    <dimen name="padding_six">6dp</dimen>
+    <dimen name="padding_two">2dp</dimen>
+    <dimen name="padding_four">4dp</dimen>
+    <dimen name="padding_large">30dp</dimen>
+    <dimen name="padding_three_six">36dp</dimen>
+    <dimen name="padding_half">50dp</dimen>
+    <dimen name="padding_dialog">48dp</dimen>
+    <dimen name="lineHeight">1px</dimen>
+    <dimen name="btnHeight">40dp</dimen>
+    <dimen name="btnWidth">140dp</dimen>
+    <dimen name="twoHundred">200dp</dimen>
+    <dimen name="padding_six_eight">38dp</dimen>
+    <dimen name="padding_two_six">26dp</dimen>
+
+
+    <!--字体大小-->
+    <dimen name="txt_big_big">25sp</dimen>
+    <dimen name="txt_32">32sp</dimen>
+    <dimen name="txt_big">22sp</dimen>
+    <dimen name="txt_normal">16sp</dimen>
+    <dimen name="txt_title">18sp</dimen>
+    <dimen name="txt_small">14sp</dimen>
+    <dimen name="txt_cell">12sp</dimen>
+    <dimen name="txt_little">8sp</dimen>
+
+    <!--查询-->
+    <dimen name="padding_search_sixty">60dp</dimen>
+    <dimen name="padding_search_eighty">80dp</dimen>
+    <dimen name="padding_search_ninety">90dp</dimen>
+
+    <!--调拨-->
+    <dimen name="padding_fifty">50dp</dimen>
+
+
+    <!--alertView start-->
+    <!--标题文字大小-->
+    <dimen name="textSize_alert_title">16sp</dimen>
+    <dimen name="textSize_actionsheet_title">14sp</dimen>
+    <!--标题文字高度-->
+    <dimen name="height_alert_title">60dp</dimen>
+    <dimen name="height_actionsheet_title">40dp</dimen>
+    <!--消息文字大小-->
+    <dimen name="textSize_alert_msg">16sp</dimen>
+    <dimen name="textSize_actionsheet_msg">14sp</dimen>
+    <!--消息距离底部间距-->
+    <dimen name="marginBottom_alert_msg">25dp</dimen>
+    <dimen name="marginBottom_actionsheet_msg">14dp</dimen>
+    <!--窗口模式左右两边到屏幕的间距-->
+    <dimen name="margin_alert_left_right">40dp</dimen>
+    <dimen name="margin_actionsheet_left_right">10dp</dimen>
+    <!--线条粗细-->
+    <dimen name="size_divier">1dp</dimen>
+    <!--按钮的高度-->
+    <dimen name="height_alert_button">48dp</dimen>
+    <!--按钮文字大小-->
+    <dimen name="textSize_alert_button">16sp</dimen>
+    <!--圆角-->
+    <dimen name="radius_alertview">15px</dimen>
+
+    <!--alertView end-->
+</resources>
