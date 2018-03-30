@@ -13,6 +13,7 @@ import zth.com.gezhi.base.BaseActivity;
 import zth.com.gezhi.bean.BaseBean;
 import zth.com.gezhi.okhttp.NetWorkEvent;
 import zth.com.gezhi.util.GsonUtil;
+import zth.com.gezhi.util.LogUtils;
 
 import static zth.com.gezhi.prop.ConfigProperties.ERROR;
 import static zth.com.gezhi.prop.ConfigProperties.FAIL;
@@ -43,6 +44,7 @@ public class NetUtil {
             return;
         }
         String s = GsonUtil.objectToJsonStr(params);
+        LogUtils.info(s);
         if (TextUtils.isEmpty(s)) {
             return;
         }

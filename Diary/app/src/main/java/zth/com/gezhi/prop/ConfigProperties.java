@@ -20,7 +20,7 @@ public interface ConfigProperties {
      */
     String testUrl = "http://www.i-gps.cn:8088/wcfservice/APPService.svc";//
 
-    String useUrl = "http://193.112.58.27:8080/simbo/";
+    String useUrl = "http://193.112.58.27:8080/simbo";
     String baseUrl = isTestVersion ? testUrl : useUrl;
     String baseImgUrl = "";
 
